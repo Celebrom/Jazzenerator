@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".MainActivity">
+
+	<Button
+			android:id="@+id/randomizedButton"
+			android:text="Jazzomize"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toTopOf="parent"/>
+
+	<TextView
+			android:id="@+id/chordTextView"
+			android:layout_width="396dp"
+			android:layout_height="166dp"
+			android:text="Generate Jazz!"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.493" android:textSize="50sp"
+			app:layout_constraintHorizontal_bias="0.466" android:textAlignment="center"/>
+
+	<TextView
+			android:id="@+id/extensionTextView"
+			android:layout_width="121dp"
+			android:layout_height="57dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.271" android:textSize="18sp"
+			app:layout_constraintHorizontal_bias="0.595" android:textAlignment="textStart"/>
+
+	<TextView
+			android:id="@+id/positionTextView"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.529" android:textSize="36sp"
+			app:layout_constraintHorizontal_bias="0.0" android:textAlignment="center"/>
+
+</android.support.constraint.ConstraintLayout>
